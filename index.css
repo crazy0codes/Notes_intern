@@ -21,3 +21,6 @@ textarea {
     margin: 4px;
 }
 */
+.modal-title,.modal-body {
+    outline: none;
+}
