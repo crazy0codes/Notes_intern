@@ -8,8 +8,8 @@
 }
 
 .newnote {
-    display: block;
-    width:50%;
+    display: inline-block;
+    min-width: 280px;
     height: auto;
     background-color: rgb(66, 170, 255);
     color: white;
@@ -25,4 +25,16 @@
 }
 .content {
     margin-top: 20px;
+}
+section {
+    display: flex;
+    justify-content: right;
+}
+
+img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    cursor: pointer;
+    user-select: none;
 }
