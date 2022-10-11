@@ -19,16 +19,19 @@ document.getElementById('create').addEventListener('click',()=>{
     
     let Trash = document.createElement('img');
     Trash.setAttribute('src','img/trash.png');
+    Trash.setAttribute('id','delete');
     Controls.appendChild(Trash);
 
     let Edit = document.createElement('img');
     Edit.setAttribute('src','img/pencil.png');
+    Edit.setAttribute('id','edit')
     Controls.appendChild(Edit);
 
     let Pin = document.createElement('img');
     Pin.setAttribute('src','img/thumbtack.png');
+    Pin.setAttribute('id','pin');
     Controls.appendChild(Pin);
-
+// Images are used instead of svg
     let Heading = document.createElement('h4')
     Heading.setAttribute('class','heading'); //Created a div tag to put heading
     let HeadingNode = document.createTextNode(x); 
@@ -42,3 +45,10 @@ document.getElementById('create').addEventListener('click',()=>{
     Newnote.appendChild(Content);
 
 });
+
+//Pin 
+
+let Pin = document.getElementById('pin');
+Pin.addEventListener('click',()=>{
+    console.log('Madhan');
+})

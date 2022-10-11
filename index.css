@@ -31,7 +31,7 @@ section {
     justify-content: right;
 }
 
-img {
+#delete,#edit,#pin {
     width: 16px;
     height: 16px;
     margin-right: 8px;
