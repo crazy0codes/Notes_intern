@@ -47,5 +47,7 @@ document.getElementById('create').addEventListener('click',()=>{
 
 });
 
-//Pin
-
+let Notedelete = document.getElementById('delete');
+Notedelete.addEventListener('click',()=>{
+    document.getElementsByTagName('demo').remove();
+})
