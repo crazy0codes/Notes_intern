@@ -1,5 +1,6 @@
 var title = [];
 var data  = [];
+
 document.getElementById('create').addEventListener('click',()=>{
     let x = document.getElementById('note-title').innerText; // Given title is taken as X
 
@@ -46,9 +47,5 @@ document.getElementById('create').addEventListener('click',()=>{
 
 });
 
-//Pin 
+//Pin
 
-let Pin = document.getElementById('pin');
-Pin.addEventListener('click',()=>{
-    console.log('Madhan');
-})
