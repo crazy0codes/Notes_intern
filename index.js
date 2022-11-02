@@ -1,4 +1,4 @@
-var title = [];
+/*var title = [];
 var data  = [];
 
 document.getElementById('create').addEventListener('click',()=>{
@@ -51,3 +51,4 @@ let Notedelete = document.getElementById('delete');
 Notedelete.addEventListener('click',()=>{
     document.getElementsByTagName('demo').remove();
 })
+*/
