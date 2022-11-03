@@ -52,3 +52,7 @@ Notedelete.addEventListener('click',()=>{
     document.getElementsByTagName('demo').remove();
 })
 */
+
+function create() {
+    let box = document.querySelector(".container");
+};
