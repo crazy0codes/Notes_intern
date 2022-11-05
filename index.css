@@ -48,6 +48,18 @@ section {
 }
 .plus {
     background-image: url("img/plus-sign.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+}
+h4 {
+    display: flex;
+    align-items: center;
 }
 #delete,#edit,#pin {
     width: 16px;
