@@ -60,8 +60,9 @@ document.getElementById('create').addEventListener('click',()=>{
 let trash  = (event) => {
     event.target.parentElement.parentElement.remove();
 }
-let edit = () => {
-    console.log("Masdf");
+let edit = (event) => {
+    let edit = event.target.parentElement.parentElement;
+    console.log(edit);
 }
 let pin = () => {
     console.log("Maadfn");
