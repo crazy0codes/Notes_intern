@@ -46,6 +46,9 @@ section {
     overflow-x: scroll;
     overflow-x: hidden;
 }
+.plus {
+    background-image: url("img/plus-sign.png");
+}
 #delete,#edit,#pin {
     width: 16px;
     height: 16px;
