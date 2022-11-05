@@ -19,11 +19,10 @@ const trash  = (event) => {
     event.target.parentElement.parentElement.remove();
 }
 const edit = (event) => {
-    let edit = event.target.parentElement.parentElement;
-    console.log(edit);
+    console.log(event.target);
 }
 const pin = (event) => {
-    console.log(event);
+    document.querySelector('#pinned').appendChild(event.target.parentElement.parentElement)
 }
 /*const trash  = (event) => {
     event.target.parentElement.parentElement.remove();
